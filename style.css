@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+ 
+} 
+#nav{
+    padding: 10px;
+    background-color: black;
+    color: white;
+} 
+
+#ghost1{
+    background-color: black;
+    padding-right: 386px;
+    padding-left: 451px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding:3px 5px;
+}
+
+#upper{
+    max-width: 40%;
+}
+#check{
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.blueL{
+    font-size: 30px;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+h2{
+ 
+    margin-bottom: 40px;
+}
+
+.para{
+    font-size: 25px;
+}
+
+#sp{
+    margin-top: 60px;
+}
+
+#upper h2{
+    font-size: 55px;
+}
+
+#upper .side{
+    padding-top: 40px;
+}
+
+.imgL{
+    width: 450px;
+    border-radius: 10px;
+}
+
+.card{
+    width: 500px;
+}
+
+#q5 img{
+    width: 660px;
+}
+#q5{
+    justify-content: space-around;
+}
+#q5 .card{
+    width: 650px;
+}
+.card *{
+    margin-top: 10px;
+}
+
+.smalllimg{
+    height: 40px;
+    width: 40px;
+}
+.flex{
+    display: flex;
+    gap: 15px;
+}
+.flex img{
+    max-height: 35px;
+    max-width: 35px;
+}
